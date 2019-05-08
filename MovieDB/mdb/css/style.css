@@ -1,0 +1,146 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+	 font-family: 'Roboto', sans-serif;
+     font-weight: 100;
+	 line-height:1em;
+	 /*background:#484545;*/
+	 background-image: url('bg1.jpg');
+	 background-size:cover;
+	 color:black;
+	 font-size:18px;
+}	
+header h1{
+	font-family:Georgia;
+	
+	font-size:60px;
+	line-height:1.5em;
+	padding:80px 0;
+	text-align: center; 
+	position: relative;
+	color:#43a9f7;
+	position: -webkit-sticky;
+	/*background-image: linear-gradient(#91e4f4,#8bbef9);*
+	background: url(mdbbg4.jpeg)no-repeat center center;*
+	background-size:cover;
+	/*border-bottom-left-radius: 50% 20%;
+  border-bottom-right-radius: 50% 20%;*/
+  
+	
+}
+
+h1 a{
+	
+	text-decoration:none;
+	color:#fff;
+	/*-webkit-text-stroke: 1px blue; */
+	padding:0 20px;
+	font-size:100%;
+	text-shadow:0 0 30px #C655FE;
+	
+}
+h1 a:after{
+	content: attr(data-text);
+	position:absolute;
+	top:0;
+	left:0;
+	padding:0 20px;
+	z-index:-1;
+	color: #C655FE;
+	filter :blur(15px);
+}
+
+/* header h1:hover{
+	transition:.7s ease,
+	padding 0.8s linear;
+	background-image:url(mdbbg4.jpeg); */
+	
+}
+
+p{
+	font-size:100px;
+	font-family:Arial;
+	
+}
+
+ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+ul li{
+	float:left;
+	width:200px;
+	height:40px;
+	background-color:black;
+	opacity:.8;
+	line-height:40px;
+	text-align:center;
+	font-size:20px;
+	margin-right:5px;
+}
+ul li a {
+	text-decoration:none;
+	color:white;
+	display:block;
+}
+
+ul li a:hover{
+	background-color:blue;
+}
+
+ul li ul li{
+	display:none;
+}
+ul li:hover ul li{
+	display:block;
+}
+
+.srch{
+	float:right;
+}
+
+#searchBar{
+	border:1px solid #000000;
+	border-right:none;
+	font-size:20px;
+	padding:7px;
+	width:350px;
+	outline:none;
+	color:#black;
+	-webkit-border-top-left-radius:10px;
+	-webkit-border-bottom-left-radius:10px;
+	-moz-border-radius-topleft: 10px;
+	-moz-border-radius-bottomleft:10px;
+	border-top-left-radius:10px;
+	border-bottom-left-radius:10px;
+	opacity:.8;
+}
+
+#searchBtn{
+	border:1px solid #000000;
+	font-size:20px;
+	padding:7px;
+	background:#5891F4;
+	opacity:.8;
+	font-weight:bold;
+	cursor:pointer;
+	outline:none;
+	-webkit-border-top-right-radius:10px;
+	-webkit-border-bottom-right-radius:10px;
+	-moz-border-radius-topright: 10px;
+	-moz-border-radius-bottomright:10px;
+	border-top-right-radius:10px;
+	border-bottom-right-radius:10px;
+}
+#searchBtn:hover {
+	background:solid blue;
+	opacity:100;
+}
+
+.fromC input{
+	width:100%;
+}
